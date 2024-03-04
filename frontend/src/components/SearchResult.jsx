@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TvShows = () => {
+const SearchResult = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const TvShows = () => {
   )
 }
 
-export default TvShows
+export default SearchResult

@@ -1,0 +1,24 @@
+.search{
+    display: flex;
+    padding: 12px;
+    gap: 1rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+
+.icon{
+    font-size: 2rem;
+}
+
+
+input{
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #10141E;
+    color: white;
+    font-size: 16px;
+    width:500px;
+   
+}

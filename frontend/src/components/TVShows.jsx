@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './Styles/Tvshows.module.css'
 
 const TVShows = () => {
   return (
-    <div>
+    <div className={styles.Tvshows}>
       
     </div>
   )

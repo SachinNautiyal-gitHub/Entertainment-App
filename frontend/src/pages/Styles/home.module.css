@@ -10,4 +10,10 @@
    align-items: center;
    height: 100vh;
    justify-content: center;
+   /* border-right: 1px solid red; */
+}
+
+.secondsection{
+   width: 90%;
+   /* border-right: 1px solid red; */
 }

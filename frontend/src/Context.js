@@ -1,9 +1,8 @@
 
 import React, { useState, createContext, useEffect } from "react";
+import JsonData from './data.js';
 
 const AppContext = createContext([]);
-
-
 
 const AppProvider = ({ children }) => {
 
@@ -21,7 +20,7 @@ const AppProvider = ({ children }) => {
 
 
     useEffect(() => {
-       fetchData();
+        setArray(JsonData);
     }, []);
 
     return <AppContext.Provider value={{array, setArray}}>

@@ -1,6 +1,6 @@
 const array = [
   {
-    "Title": "Dangal",
+    "title": "Dangal",
     "Year": 2016,
     "Genre": "Biography, Drama, Sport",
     "Actors": "Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh, Sanya Malhotra",
@@ -16,7 +16,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/x_7YlGv9u1g?si=qco-vp07Q1OGYK17"
   },
   {
-    "Title": "Black Mirror",
+    "title": "Black Mirror",
     "Year": 2011,
     "Genre": "Drama, Sci-Fi, Thriller",
     "Actors": "Daniel Lapaine, Hannah John-Kamen, Michaela Coel, Beatrice Robertson-Jones",
@@ -32,7 +32,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/5jY1ecibLYo?si=TdA6033g9wLjRxvS"
   },
   {
-    "Title": "PK",
+    "title": "PK",
     "Year": 2014,
     "Genre": "Comedy, Drama, Fantasy",
     "Actors": "Aamir Khan, Anushka Sharma, Sanjay Dutt, Boman Irani",
@@ -49,7 +49,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/SOXWc32k4zA?si=NF5g09vnKzmjcZrD"
   },
   {
-    "Title": "Mirzapur",
+    "title": "Mirzapur",
     "Year": 2018,
     "Genre": "Action, Crime, Drama",
     "Actors": "Pankaj Tripathi, Ali Fazal, Divyendu Sharma, Shweta Tripathi",
@@ -65,7 +65,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/ZNeGF-PvRHY?si=_vmDvK0fNfE-MOsm"
   },
   {
-    "Title": "Andhadhun",
+    "title": "Andhadhun",
     "Year": 2018,
     "Genre": "Crime, Thriller",
     "Actors": "Ayushmann Khurrana, Tabu, Radhika Apte, Anil Dhawan",
@@ -81,7 +81,7 @@ const array = [
      "VideoLink":"https://www.youtube.com/embed/2iVYI99VGaw?si=Dv8FUzULGJ5t-e9d"
   },
   {
-    "Title": "3 Idiots",
+    "title": "3 Idiots",
     "Year": 2009,
     "Genre": "Comedy, Drama",
     "Actors": "Aamir Khan, Madhavan, Sharman Joshi, Kareena Kapoor",
@@ -97,7 +97,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/xvszmNXdM4w?si=TrAnDO0pUmW1nQ5s"
   },
   {
-    "Title": "The Family Man",
+    "title": "The Family Man",
     "Year": 2019,
     "Genre": "Action, Comedy, Drama",
     "Actors": "Manoj Bajpayee, Sharib Hashmi, Priyamani, Gul Panag",
@@ -113,7 +113,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/XatRGut65VI?si=6Ua_Gu92M4b4pLnn"
   },
   {
-    "Title": "Breathe",
+    "title": "Breathe",
     "Year": 2018,
     "Genre": "Drama, Thriller",
     "Actors": "Madhavan, Amit Sadh, Sapna Pabbi, Shriswara",
@@ -129,7 +129,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/GfLhuXcj4b4?si=tREDv5dQz05mFT2s"
   },
   {
-    "Title": "Lagaan: Once Upon a Time in India",
+    "title": "Lagaan: Once Upon a Time in India",
     "Year": 2001,
     "Genre": "Adventure, Drama, Musical",
     "Actors": "Aamir Khan, Gracy Singh, Rachel Shelley, Paul Blackthorne",
@@ -146,7 +146,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/Nhi4Azs2nEw?si=PrAvVcJtFeQE8dcj"
   },
   {
-    "Title": "Queen",
+    "title": "Queen",
     "Year": 2013,
     "Genre": "Adventure, Comedy, Drama",
     "Actors": "Kangana Ranaut, Rajkummar Rao, Lisa Haydon, Jeffrey Ho",
@@ -163,7 +163,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/KGC6vl3lzf0?si=621a98sIWwCXMlmV"
   },
   {
-    "Title": "Barfi!",
+    "title": "Barfi!",
     "Year": 2012,
     "Genre": "Adventure, Comedy, Drama",
     "Actors": "Ranbir Kapoor, Priyanka Chopra, Ileana D'Cruz, Saurabh Shukla",
@@ -180,7 +180,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/nQ3FYUgSjC8?si=QZcs3IFcmNcB1wTz"
   },
   {
-    "Title": "Kabhi Khushi Kabhie Gham...",
+    "title": "Kabhi Khushi Kabhie Gham...",
     "Year": 2001,
     "Genre": "Drama, Musical, Romance",
     "Actors": "Shah Rukh Khan, Kajol, Amitabh Bachchan, Hrithik Roshan",
@@ -198,7 +198,7 @@ const array = [
   },
 
   {
-    "Title": "Made in Heaven",
+    "title": "Made in Heaven",
     "Year": 2019,
     "Genre": "Drama, Romance",
     "Actors": "Arjun Mathur, Sobhita Dhulipala, Jim Sarbh, Kalki Koechlin",
@@ -215,7 +215,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/u0UkDQaR5KQ?si=SgyElC_hiXvrwAfc"
   },
   {
-    "Title": "Gully Boy",
+    "title": "Gully Boy",
     "Year": 2019,
     "Genre": "Drama, Music",
     "Actors": "Ranveer Singh, Alia Bhatt, Siddhant Chaturvedi, Vijay Raaz",
@@ -232,7 +232,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/JfbxcD6biOk?si=TnYzeVYi-F2_BpGb"
   },
   {
-    "Title": "Sacred Games",
+    "title": "Sacred Games",
     "Year": 2018,
     "Genre": "Action, Crime, Drama",
     "Actors": "Saif Ali Khan, Nawazuddin Siddiqui, Radhika Apte, Neeraj Kabi",
@@ -249,7 +249,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/AkUgf2jIPyI?si=sqRhQThrjbcu2oso"
   },
   {
-    "Title": "Delhi Crime",
+    "title": "Delhi Crime",
     "Year": 2019,
     "Genre": "Crime, Drama, Thriller",
     "Actors": "Shefali Shah, Rajesh Tailang, Rasika Dugal, Anurag Arora",
@@ -266,7 +266,7 @@ const array = [
   },
 
   {
-    "Title": "Criminal Justice",
+    "title": "Criminal Justice",
     "Year": 2019,
     "Genre": "Crime, Drama, Mystery",
     "Actors": "Vikrant Massey, Pankaj Tripathi, Rucha Inamdar, Jackie Shroff",
@@ -284,7 +284,7 @@ const array = [
 
 
   {
-    "Title": "Paatal Lok",
+    "title": "Paatal Lok",
     "Year": 2020,
     "Genre": "Crime, Drama, Thriller",
     "Actors": "Jaideep Ahlawat, Neeraj Kabi, Abhishek Banerjee, Gul Panag",
@@ -300,7 +300,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/cNwWMW4mxO8?si=MCm8CwTwQoDIOuY0"
   },
   {
-    "Title": "Asur: Welcome to Your Dark Side",
+    "title": "Asur: Welcome to Your Dark Side",
     "Year": 2020,
     "Genre": "Crime, Drama, Thriller",
     "Actors": "Arshad Warsi, Barun Sobti, Anupriya Goenka, Sharib Hashmi",
@@ -316,7 +316,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/LDirQBvwx7g?si=ySvjR9J5r45JqXr5"
   },
   {
-    "Title": "Masaan",
+    "title": "Masaan",
     "Year": 2015,
     "Genre": "Drama",
     "Actors": "Richa Chadha, Sanjay Mishra, Vicky Kaushal, Pankaj Tripathi",
@@ -334,7 +334,7 @@ const array = [
   },
 
   {
-    "Title": "Avatar",
+    "title": "Avatar",
     "Year": 2009,
     "Genre": "Action, Adventure, Fantasy",
     "Actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
@@ -350,7 +350,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/5PSNL1qE6VY?si=j86I01PQsDpXbBTL"
   },
   {
-    "Title": "I Am Legend",
+    "title": "I Am Legend",
     "Year": 2007,
     "Genre": "Drama, Horror, Sci-Fi",
     "Actors": "Will Smith, Alice Braga, Charlie Tahan, Salli Richardson-Whitfield",
@@ -366,7 +366,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/sFNPNT_4Qww?si=ue4zaRYe3YLv24Mo"
   },
   {
-    "Title": "Aarya",
+    "title": "Aarya",
     "Year": 2020,
     "Genre": "Action, Crime, Drama",
     "Actors": "Sushmita Sen, Vikas Kumar, Namit Das, Sikandar Kher",
@@ -382,7 +382,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/ZYajW2ePmFQ?si=PKFNlPUJ6FzdNn3A"
   },
   {
-    "Title": "300",
+    "title": "300",
     "Year": 2006,
     "Genre": "Action, Drama, Fantasy",
     "Actors": "Gerard Butler, Lena Headey, Dominic West, David Wenham",
@@ -398,7 +398,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/UrIbxk7idYA?si=qcpNfnczRzVxqmmW"
   },
   {
-    "Title": "The Avengers",
+    "title": "The Avengers",
     "Year": 2012,
     "Genre": "Action, Sci-Fi, Thriller",
     "Actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
@@ -414,7 +414,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/eOrNdBpGMv8?si=YD2vkio2s7oPqz7k"
   },
   {
-    "Title": "The Wolf of Wall Street",
+    "title": "The Wolf of Wall Street",
     "Year": 2013,
     "Genre": "Biography, Comedy, Crime",
     "Actors": "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
@@ -430,7 +430,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/iszwuX1AK6A?si=q2_ynTpgOjITtR6-"
   },
   {
-    "Title": "Interstellar",
+    "title": "Interstellar",
     "Year": 2014,
     "Genre": "Adventure, Drama, Sci-Fi",
     "Actors": "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
@@ -447,7 +447,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/zSWdZVtXT7E?si=5wNev9h19y7GrVD5"
   },
   {
-    "Title": "Game of Thrones",
+    "title": "Game of Thrones",
     "Year": 2011,
     "Genre": "Adventure, Drama, Fantasy",
     "Actors": "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
@@ -464,7 +464,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/KPLWWIOCOOQ?si=iSwcIcMKrMuH6FXK"
   },
   {
-    "Title": "Vikings",
+    "title": "Vikings",
     "Year": 2013,
     "Genre": "Action, Drama, History",
     "Actors": "Travis Fimmel, Clive Standen, Gustaf Skarsgård, Katheryn Winnick",
@@ -480,7 +480,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/9GgxinPwAGc?si=nti-Oxg8CbUX1IWy"
   },
   {
-    "Title": "Gotham",
+    "title": "Gotham",
     "Year": 2014,
     "Genre": "Action, Crime, Drama",
     "Actors": "Ben McKenzie, Donal Logue, David Mazouz, Sean Pertwee",
@@ -496,7 +496,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/VwOPA2upeCA?si=bqM6Snp8miIdfGl9"
   },
   {
-    "Title": "Power",
+    "title": "Power",
     "Year": 2014,
     "Genre": "Crime, Drama",
     "Actors": "Omari Hardwick, Joseph Sikora, Andy Bean, Lela Loren",
@@ -512,7 +512,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/g9PBhyTHhRE?si=-l11_2um82DO_auT"
   },
   {
-    "Title": "Breaking Bad",
+    "title": "Breaking Bad",
     "Year": 2008,
     "Genre": "Crime, Drama, Thriller",
     "Actors": "Bryan Cranston, Anna Gunn, Aaron Paul, Dean Norris",
@@ -529,7 +529,7 @@ const array = [
   },
   {
 
-    "Title": "Doctor Strange",
+    "title": "Doctor Strange",
     "Year": 2016,
     "Genre": "Action, Adventure, Fantasy",
     "Actors": "Rachel McAdams, Benedict Cumberbatch, Mads Mikkelsen, Tilda Swinton",
@@ -545,7 +545,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/h7gvFravm4A?si=ZTYal95wXBk3NWW6"
   },
   {
-    "Title": "Rogue One: A Star Wars Story",
+    "title": "Rogue One: A Star Wars Story",
     "Year": 2016,
     "Genre": "Action, Adventure, Sci-Fi",
     "Actors": "Felicity Jones, Riz Ahmed, Mads Mikkelsen, Ben Mendelsohn",
@@ -562,7 +562,7 @@ const array = [
   },
   {
 
-    "Title": "Assassin's Creed",
+    "title": "Assassin's Creed",
     "Year": 2016,
     "Genre": "Action, Adventure, Fantasy",
     "Actors": "Michael Fassbender, Michael Kenneth Williams, Marion Cotillard, Jeremy Irons",
@@ -579,7 +579,7 @@ const array = [
   },
   {
 
-    "Title": "Luke Cage",
+    "title": "Luke Cage",
     "Year": 2016,
     "Genre": "Action, Crime, Drama",
     "Actors": "Mahershala Ali, Mike Colter, Frankie Faison, Erik LaRay Harvey",
@@ -596,7 +596,7 @@ const array = [
   },
 
   {
-    "Title": "They Shall Not Grow Old",
+    "title": "They Shall Not Grow Old",
     "Year": 2018,
     "Genre": "Documentary, History, War",
     "Actors": "Mark Kermode, Peter Jackson",
@@ -612,7 +612,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/IrabKK9Bhds?si=W9iLZ-M01gUhsuEB"
   },
   {
-    "Title": "Midnight Family",
+    "title": "Midnight Family",
     "Year": 2019,
     "Genre": "Documentary, Action, Crime, Drama",
     "Actors": "Fer Ochoa, Josue Ochoa, Juan Ochoa",
@@ -628,7 +628,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/AM5I9N1OzTc?si=Y0uvXKmbwTDruZgz"
   },
   {
-    "Title": "Pain & Gain",
+    "title": "Pain & Gain",
     "Year": 2013,
     "Genre": "Action, Comedy, Crime, Drama",
     "Actors": "Mark Wahlberg, Dwayne Johnson, Anthony Mackie, Tony Shalhoub",
@@ -644,7 +644,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/SEQ8jyvmYtw?si=NykG0tW6B7yWVdXz"
   },
   {
-    "Title": "The Irishman",
+    "title": "The Irishman",
     "Year": 2019,
     "Genre": "Biography, Crime, Drama",
     "Actors": "Robert De Niro, Al Pacino, Joe Pesci, Harvey Keitel",
@@ -660,7 +660,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/WHXxVmeGQUc?si=73NYgzg-XQSElYVu"
   },
   {
-    "Title": "Once Upon a Time... in Hollywood",
+    "title": "Once Upon a Time... in Hollywood",
     "Year": 2019,
     "Genre": "Comedy, Drama",
     "Actors": "Leonardo DiCaprio, Brad Pitt, Margot Robbie, Emile Hirsch",
@@ -676,7 +676,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/ELeMaP8EPAA?si=tZUwhQMESaSQ-RjG"
   },
   {
-    "Title": "Marriage Story",
+    "title": "Marriage Story",
     "Year": 2019,
     "Genre": "Comedy, Drama, Romance",
     "Actors": "Adam Driver, Scarlett Johansson, Julia Greer, Azhy Robertson",
@@ -692,7 +692,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/BHi-a1n8t7M?si=VBE3LJwwe2NzecNl"
   },
   {
-    "Title": "Little Women",
+    "title": "Little Women",
     "Year": 1994,
     "Genre": "Drama, Family, Romance",
     "Actors": "Winona Ryder, Gabriel Byrne, Trini Alvarado, Samantha Mathis",
@@ -708,7 +708,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/V8i6PB0gGOA?si=dqPUnDriFY89YR88"
   },
   {
-    "Title": "Parasite",
+    "title": "Parasite",
     "Year": 2019,
     "Genre": "Comedy, Drama, Thriller",
     "Actors": "Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo, Woo-sik Choi",
@@ -724,7 +724,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/5xH0HfJHsaY?si=UFeFbstczSK_oODp"
   },
   {
-    "Title": "Knives Out",
+    "title": "Knives Out",
     "Year": 2019,
     "Genre": "Comedy, Crime, Drama, Mystery, Thriller",
     "Actors": "Daniel Craig, Chris Evans, Ana de Armas, Jamie Lee Curtis",
@@ -740,7 +740,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/qGqiHJTsRkQ?si=lqicjjWSGcMaLQwS"
   },
   {
-    "Title": "Dolemite Is My Name",
+    "title": "Dolemite Is My Name",
     "Year": 2019,
     "Genre": "Biography, Comedy, Drama",
     "Actors": "Eddie Murphy, Keegan-Michael Key, Mike Epps, Craig Robinson",
@@ -756,7 +756,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/Ws1YIKsuTjQ?si=P4ZVBemCLLlRH4sn"
   },
   {
-    "Title": "Inception",
+    "title": "Inception",
     "Year": 2010,
     "Genre": "Action, Adventure, Sci-Fi",
     "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
@@ -772,7 +772,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/Jvurpf91omw?si=cBscP7epC5rKFpgN"
   },
   {
-    "Title": "The Shawshank Redemption",
+    "title": "The Shawshank Redemption",
     "Year": 1994,
     "Genre": "Drama",
     "Actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
@@ -788,7 +788,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/NmzuHjWmXOc?si=sNxZEnYTJNyY3yYB"
   },
   {
-    "Title": "The Dark Knight",
+    "title": "The Dark Knight",
     "Year": 2008,
     "Genre": "Action, Crime, Drama",
     "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
@@ -804,7 +804,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/EXeTwQWrcwY?si=-f3tEGOjd6md5BfX"
   },
   {
-    "Title": "Pulp Fiction",
+    "title": "Pulp Fiction",
     "Year": 1994,
     "Genre": "Crime, Drama",
     "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis",
@@ -820,7 +820,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/s7EdQ4FqbhY?si=W4zX64dnWE905W5A"
   },
   {
-    "Title": "The Office",
+    "title": "The Office",
     "Year": 2005,
     "Genre": "Comedy",
     "Actors": "Steve Carell, Rainn Wilson, John Krasinski, Jenna Fischer",
@@ -836,7 +836,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/rdqZFIOhes8?si=vyngMXSH51NYB7ov"
   },
   {
-    "Title": "Fight Club",
+    "title": "Fight Club",
     "Year": 1999,
     "Genre": "Drama",
     "Actors": "Brad Pitt, Edward Norton, Meat Loaf, Zach Grenier",
@@ -852,7 +852,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/qtRKdVHc-cE?si=UilbbQatLlu8oJHh"
   },
   {
-    "Title": "The Mandalorian",
+    "title": "The Mandalorian",
     "Year": 2019,
     "Genre": "Action, Adventure, Fantasy",
     "Actors": "Pedro Pascal, Gina Carano, Giancarlo Esposito, Rosario Dawson",
@@ -869,7 +869,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/aOC8E8z_ifw?si=19UOj7kfl0fN9oUg"
   },
   {
-    "Title": "Forrest Gump",
+    "title": "Forrest Gump",
     "Year": 1994,
     "Genre": "Drama, Romance",
     "Actors": "Tom Hanks, Robin Wright, Gary Sinise, Sally Field",
@@ -886,7 +886,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/XHhAG-YLdk8?si=J39qS7faQnxLxvZa"
   },
   {
-    "Title": "The Matrix",
+    "title": "The Matrix",
     "Year": 1999,
     "Genre": "Action, Sci-Fi",
     "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving",
@@ -902,7 +902,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/vKQi3bBA1y8?si=jIpmUZIb5qkrDRul"
   },
   {
-    "Title": "The Godfather",
+    "title": "The Godfather",
     "Year": 1972,
     "Genre": "Crime, Drama",
     "Actors": "Marlon Brando, Al Pacino, James Caan, Diane Keaton",
@@ -918,7 +918,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/UaVTIH8mujA?si=ntfbnz04Y-jnAeXH"
   },
   {
-    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
     "Year": 2001,
     "Genre": "Action, Adventure, Drama",
     "Actors": "Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean",
@@ -935,7 +935,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/V75dMMIW2B4?si=PgeMJ68whj5fQKo3"
   },
   {
-    "Title": "The Witcher",
+    "title": "The Witcher",
     "Year": 2019,
     "Genre": "Action, Adventure, Drama",
     "Actors": "Henry Cavill, Freya Allan, Anya Chalotra, Mimi Ndiweni",
@@ -952,7 +952,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/ndl1W4ltcmg?si=y91tKGGLAN3wH2q_"
   },
   {
-    "Title": "The Godfather: Part II",
+    "title": "The Godfather: Part II",
     "Year": 1974,
     "Genre": "Crime, Drama",
     "Actors": "Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton",
@@ -968,7 +968,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/9O1Iy9od7-A?si=NmnvAiHivaU88ai7"
   },
   {
-    "Title": "The Lord of the Rings: The Return of the King",
+    "title": "The Lord of the Rings: The Return of the King",
     "Year": 2003,
     "Genre": "Action, Adventure, Drama",
     "Actors": "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom",
@@ -984,7 +984,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/r5X-hFf6Bwo?si=AOBYWpzG5YKz-iBr"
   },
   {
-    "Title": "The Dark Knight Rises",
+    "title": "The Dark Knight Rises",
     "Year": 2012,
     "Genre": "Action, Adventure",
     "Actors": "Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman",
@@ -1000,7 +1000,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/GokKUqLcvD8?si=DJMSJ4PxFq-UUw6s"
   },
   {
-    "Title": "The Lord of the Rings: The Two Towers",
+    "title": "The Lord of the Rings: The Two Towers",
     "Year": 2002,
     "Genre": "Action, Adventure, Drama",
     "Actors": "Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom",
@@ -1016,7 +1016,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/LbfMDwc4azU?si=SNgTzGnFuaENxtl6"
   },
   {
-    "Title": "Breaking Bad",
+    "title": "Breaking Bad",
     "Year": 2008,
     "Genre": "Crime, Drama, Thriller",
     "Actors": "Bryan Cranston, Aaron Paul, Anna Gunn, Betsy Brandt",
@@ -1032,7 +1032,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/HhesaQXLuRY?si=0V_vsX_gGMvxcXj_"
   },
   {
-    "Title": "Stranger Things",
+    "title": "Stranger Things",
     "Year": 2016,
     "Genre": "Drama, Fantasy, Horror",
     "Actors": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder, David Harbour",
@@ -1049,7 +1049,7 @@ const array = [
   },
 
   {
-    "Title": "Friends",
+    "title": "Friends",
     "Year": 1994,
     "Genre": "Comedy, Romance",
     "Actors": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc",
@@ -1065,7 +1065,7 @@ const array = [
     "VideoLink":"https://www.youtube.com/embed/IEEbUzffzrk?si=w6cbFNs_KVlfkDOj"
   },
   {
-    "Title": "The Simpsons",
+    "title": "The Simpsons",
     "Year": 1989,
     "Genre": "Animation, Comedy",
     "Actors": "Dan Castellaneta, Nancy Cartwright, Harry Shearer, Julie Kavner",
@@ -1082,7 +1082,7 @@ const array = [
   },
 
   {
-    "Title": "Narcos",
+    "title": "Narcos",
     "Year": 2015,
     "Genre": "Biography, Crime, Drama",
     "Actors": "Pedro Pascal, Wagner Moura, Boyd Holbrook, Alberto Ammann",

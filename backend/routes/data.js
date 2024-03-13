@@ -9,8 +9,7 @@ const fetchuser = require('../middleware/fetchUser')
 
 // Get all the movies form database
 
-router.get('/moviesdata', fetchuser,  async(req, res)=>{
-     
+router.get('/moviesdata', fetchuser,  async(req, res)=>{    
     try {
         const movies = await Movies.find();
         res.json(movies);
@@ -28,8 +27,7 @@ router.get('/moviesdata', fetchuser,  async(req, res)=>{
 router.get('/bookmark', fetchuser, async(req,res)=>{  
     try {
         const movies = await BookMark.find({user: req.user.id});
-        res.json(movies);
-        
+        res.json(movies);      
     } catch (error) {
         console.log(error.massage);
         res.status(500).send('Internal server Error');
@@ -45,8 +43,7 @@ router.post('/add/:id', fetchuser, async(req, res)=>{
     let bookMarkedMovie = await BookMark.findById(req.params.id);
     if(bookMarkedMovie){
         return res.status(400).send("BookMark already exits");
-    } 
-    
+    }  
     try {
         let movie = await Movies.findById(req.params.id);
         const bookmark = new BookMark({ ...movie , user : req.user.id});
@@ -65,7 +62,6 @@ router.post('/add/:id', fetchuser, async(req, res)=>{
 
 
 //  Remove movie from bookmark
-
 router.delete('/remove/:id', fetchuser, async(req, res)=>{
 
     let movie = await BookMark.findById(req.params.id);
@@ -85,3 +81,4 @@ router.delete('/remove/:id', fetchuser, async(req, res)=>{
 
 
 
+module.exports = router;

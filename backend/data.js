@@ -13,7 +13,7 @@ const array = [
     "imdbVotes": "161,088",
     "imdbID": "tt5074352",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/x_7YlGv9u1g?si=qco-vp07Q1OGYK17"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x4y9tvh"
   },
   {
     "title": "Black Mirror",
@@ -29,7 +29,7 @@ const array = [
     "imdbVotes": "456,628",
     "imdbID": "tt2085059",
     "Type": "series",
-    "VideoLink":"https://www.youtube.com/embed/5jY1ecibLYo?si=TdA6033g9wLjRxvS"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8le9qp"
   },
   {
     "title": "PK",
@@ -46,7 +46,7 @@ const array = [
     "imdbID": "tt2338151",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/SOXWc32k4zA?si=NF5g09vnKzmjcZrD"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x2c25dr"
   },
   {
     "title": "Mirzapur",
@@ -62,7 +62,7 @@ const array = [
     "imdbVotes": "59,101",
     "imdbID": "tt6473300",
     "Type": "series",  
-    "VideoLink":"https://www.youtube.com/embed/ZNeGF-PvRHY?si=_vmDvK0fNfE-MOsm"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8o1krh"
   },
   {
     "title": "Andhadhun",
@@ -78,7 +78,7 @@ const array = [
     "imdbVotes": "69,442",
     "imdbID": "tt8108198",
     "Type": "movie",
-     "VideoLink":"https://www.youtube.com/embed/2iVYI99VGaw?si=Dv8FUzULGJ5t-e9d"
+     "VideoLink":"https://www.dailymotion.com/embed/video/x6t0exy"
   },
   {
     "title": "3 Idiots",
@@ -94,7 +94,7 @@ const array = [
     "imdbVotes": "356,348",
     "imdbID": "tt1187043",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/xvszmNXdM4w?si=TrAnDO0pUmW1nQ5s"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x4k2bdw"
   },
   {
     "title": "The Family Man",
@@ -110,7 +110,7 @@ const array = [
     "imdbVotes": "29,898",
     "imdbID": "tt9544034",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/XatRGut65VI?si=6Ua_Gu92M4b4pLnn"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hr0l0"
   },
   {
     "title": "Breathe",
@@ -126,7 +126,7 @@ const array = [
     "imdbVotes": "8,896",
     "imdbID": "tt6469428",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/GfLhuXcj4b4?si=tREDv5dQz05mFT2s"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hsh4g"
   },
   {
     "title": "Lagaan: Once Upon a Time in India",
@@ -143,7 +143,7 @@ const array = [
     "imdbID": "tt0169102",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/Nhi4Azs2nEw?si=PrAvVcJtFeQE8dcj"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8lgq0d"
   },
   {
     "title": "Queen",
@@ -160,7 +160,7 @@ const array = [
     "imdbID": "tt3322420",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/KGC6vl3lzf0?si=621a98sIWwCXMlmV"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x2e9zew"
   },
   {
     "title": "Barfi!",
@@ -177,7 +177,7 @@ const array = [
     "imdbID": "tt2082197",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/nQ3FYUgSjC8?si=QZcs3IFcmNcB1wTz"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x3ug3uf"
   },
   {
     "title": "Kabhi Khushi Kabhie Gham...",
@@ -194,7 +194,7 @@ const array = [
     "imdbID": "tt0248126",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/7uY1JbWZKPA?si=aQdrfiT_PwDf4cu4"
+    "VideoLink":"https://www.dailymotion.com/embed/video/xo25ir"
   },
 
   {
@@ -212,7 +212,7 @@ const array = [
     "imdbID": "tt9495224",
     "Type": "series",
      
-    "VideoLink":"https://www.youtube.com/embed/u0UkDQaR5KQ?si=SgyElC_hiXvrwAfc"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x81l0vg"
   },
   {
     "title": "Gully Boy",
@@ -229,7 +229,7 @@ const array = [
     "imdbID": "tt2395469",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/JfbxcD6biOk?si=TnYzeVYi-F2_BpGb"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hqlwe"
   },
   {
     "title": "Sacred Games",
@@ -246,7 +246,7 @@ const array = [
     "imdbID": "tt6077448",
     "Type": "series",
      
-    "VideoLink":"https://www.youtube.com/embed/AkUgf2jIPyI?si=sqRhQThrjbcu2oso"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x6mw07m"
   },
   {
     "title": "Delhi Crime",
@@ -262,7 +262,7 @@ const array = [
     "imdbVotes": "30,828",
     "imdbID": "tt9398466",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/jNuKwlKJx2E?si=rL0bz_vqlqi8ZhNa"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x74lpct"
   },
 
   {
@@ -279,7 +279,7 @@ const array = [
     "imdbVotes": "4,852",
     "imdbID": "tt8688506",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/KPyNH7mZkGc?si=N1iAcUbQuanSyvGB"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hr69g"
   },
 
 
@@ -297,7 +297,7 @@ const array = [
     "imdbVotes": "19,738",
     "imdbID": "tt9680440",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/cNwWMW4mxO8?si=MCm8CwTwQoDIOuY0"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7u1u9m"
   },
   {
     "title": "Asur: Welcome to Your Dark Side",
@@ -313,7 +313,7 @@ const array = [
     "imdbVotes": "9,456",
     "imdbID": "tt10155688",
     "Type": "series",  
-    "VideoLink":"https://www.youtube.com/embed/LDirQBvwx7g?si=ySvjR9J5r45JqXr5"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8ht6kw"
   },
   {
     "title": "Masaan",
@@ -330,7 +330,7 @@ const array = [
     "imdbID": "tt4635372",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/SKJfBo3xMW0?si=zydIKt8diJ1XzdJA"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x2t2a4d"
   },
 
   {
@@ -347,7 +347,7 @@ const array = [
     "imdbVotes": "890,617",
     "imdbID": "tt0499549",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/5PSNL1qE6VY?si=j86I01PQsDpXbBTL"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8d7o52"
   },
   {
     "title": "I Am Legend",
@@ -363,7 +363,7 @@ const array = [
     "imdbVotes": "533,874",
     "imdbID": "tt0480249",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/sFNPNT_4Qww?si=ue4zaRYe3YLv24Mo"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hjus8"
   },
   {
     "title": "Aarya",
@@ -379,7 +379,7 @@ const array = [
     "imdbVotes": "8,683",
     "imdbID": "tt10366206",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/ZYajW2ePmFQ?si=PKFNlPUJ6FzdNn3A"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8seqhk"
   },
   {
     "title": "300",
@@ -395,7 +395,7 @@ const array = [
     "imdbVotes": "611,046",
     "imdbID": "tt0416449",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/UrIbxk7idYA?si=qcpNfnczRzVxqmmW"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x29sdv"
   },
   {
     "title": "The Avengers",
@@ -411,7 +411,7 @@ const array = [
     "imdbVotes": "1,003,301",
     "imdbID": "tt0848228",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/eOrNdBpGMv8?si=YD2vkio2s7oPqz7k"
+    "VideoLink":"https://www.dailymotion.com/embed/video/xp4uha"
   },
   {
     "title": "The Wolf of Wall Street",
@@ -427,7 +427,7 @@ const array = [
     "imdbVotes": "786,985",
     "imdbID": "tt0993846",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/iszwuX1AK6A?si=q2_ynTpgOjITtR6-"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x16lmhh"
   },
   {
     "title": "Interstellar",
@@ -444,7 +444,7 @@ const array = [
     "imdbID": "tt0816692",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/zSWdZVtXT7E?si=5wNev9h19y7GrVD5"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x27421u"
   },
   {
     "title": "Game of Thrones",
@@ -461,7 +461,7 @@ const array = [
     "imdbID": "tt0944947",
     "Type": "series",
      
-    "VideoLink":"https://www.youtube.com/embed/KPLWWIOCOOQ?si=iSwcIcMKrMuH6FXK"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x26mmdf"
   },
   {
     "title": "Vikings",
@@ -477,7 +477,7 @@ const array = [
     "imdbVotes": "198,041",
     "imdbID": "tt2306299",
     "Type": "series",  
-    "VideoLink":"https://www.youtube.com/embed/9GgxinPwAGc?si=nti-Oxg8CbUX1IWy"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8a0wwy"
   },
   {
     "title": "Gotham",
@@ -493,7 +493,7 @@ const array = [
     "imdbVotes": "133,375",
     "imdbID": "tt3749900",
     "Type": "series",
-    "VideoLink":"https://www.youtube.com/embed/VwOPA2upeCA?si=bqM6Snp8miIdfGl9"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x1taktl"
   },
   {
     "title": "Power",
@@ -509,7 +509,7 @@ const array = [
     "imdbVotes": "14,770",
     "imdbID": "tt3281796",
     "Type": "series",  
-    "VideoLink":"https://www.youtube.com/embed/g9PBhyTHhRE?si=-l11_2um82DO_auT"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7cpz1n"
   },
   {
     "title": "Breaking Bad",
@@ -525,7 +525,7 @@ const array = [
     "imdbVotes": "889,883",
     "imdbID": "tt0903747",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/HhesaQXLuRY?si=itlGDl0t3wjdn_uN"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x86esfl"
   },
   {
 
@@ -542,7 +542,7 @@ const array = [
     "imdbVotes": "889,7598",
     "imdbID": "tt1211837",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/h7gvFravm4A?si=ZTYal95wXBk3NWW6"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x45jn9c"
   },
   {
     "title": "Rogue One: A Star Wars Story",
@@ -558,7 +558,7 @@ const array = [
     "imdbVotes": "N/A",
     "imdbID": "tt3748528",
     "Type": "movie",    
-    "VideoLink":"https://www.youtube.com/embed/Wji-BZ0oCwg?si=J0SeS0awiEhPalOX"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8tmjro"
   },
   {
 
@@ -575,7 +575,7 @@ const array = [
     "imdbVotes": "N/A",
     "imdbID": "tt2094766",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/xLBZ1_J1xvM?si=Qx4gF-kNXOLKT2dx"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8fjhub"
   },
   {
 
@@ -592,7 +592,7 @@ const array = [
     "imdbVotes": "N/A",
     "imdbID": "tt3322314",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/ORa4hPhGrpo?si=idO8ml3AN8Jy0SBO"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x4nxz3q"
   },
 
   {
@@ -609,7 +609,7 @@ const array = [
     "imdbVotes": "21,722",
     "imdbID": "tt7905466",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/IrabKK9Bhds?si=W9iLZ-M01gUhsuEB"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x6xopwj"
   },
   {
     "title": "Midnight Family",
@@ -625,7 +625,7 @@ const array = [
     "imdbVotes": 330,
     "imdbID": "tt6010976",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/AM5I9N1OzTc?si=Y0uvXKmbwTDruZgz"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7nqym2"
   },
   {
     "title": "Pain & Gain",
@@ -641,7 +641,7 @@ const array = [
     "imdbVotes": "191,388",
     "imdbID": "tt1980209",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/SEQ8jyvmYtw?si=NykG0tW6B7yWVdXz"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x28dhej"
   },
   {
     "title": "The Irishman",
@@ -657,7 +657,7 @@ const array = [
     "imdbVotes": "144,536",
     "imdbID": "tt1302006",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/WHXxVmeGQUc?si=73NYgzg-XQSElYVu"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7eu20b"
   },
   {
     "title": "Once Upon a Time... in Hollywood",
@@ -673,7 +673,7 @@ const array = [
     "imdbVotes": "318,841",
     "imdbID": "tt7131622",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/ELeMaP8EPAA?si=tZUwhQMESaSQ-RjG"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x78z1km"
   },
   {
     "title": "Marriage Story",
@@ -689,7 +689,7 @@ const array = [
     "imdbVotes": "108,524",
     "imdbID": "tt7653254",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/BHi-a1n8t7M?si=VBE3LJwwe2NzecNl"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x85f3uc"
   },
   {
     "title": "Little Women",
@@ -705,7 +705,7 @@ const array = [
     "imdbVotes": "45,297",
     "imdbID": "tt0110367",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/V8i6PB0gGOA?si=dqPUnDriFY89YR88"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8ic34b"
   },
   {
     "title": "Parasite",
@@ -721,7 +721,7 @@ const array = [
     "imdbVotes": "128,604",
     "imdbID": "tt6751668",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/5xH0HfJHsaY?si=UFeFbstczSK_oODp"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8ny4p7"
   },
   {
     "title": "Knives Out",
@@ -737,7 +737,7 @@ const array = [
     "imdbVotes": "66,522",
     "imdbID": "tt8946378",
     "Type": "movie",   
-    "VideoLink":"https://www.youtube.com/embed/qGqiHJTsRkQ?si=lqicjjWSGcMaLQwS"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x80bv1q"
   },
   {
     "title": "Dolemite Is My Name",
@@ -753,7 +753,7 @@ const array = [
     "imdbVotes": "31,613",
     "imdbID": "tt8526872",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/Ws1YIKsuTjQ?si=P4ZVBemCLLlRH4sn"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7fxqa3"
   },
   {
     "title": "Inception",
@@ -769,7 +769,7 @@ const array = [
     "imdbVotes": "2,314,604",
     "imdbID": "tt1375666",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/Jvurpf91omw?si=cBscP7epC5rKFpgN"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7s3d1r"
   },
   {
     "title": "The Shawshank Redemption",
@@ -785,7 +785,7 @@ const array = [
     "imdbVotes": "2,424,865",
     "imdbID": "tt0111161",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/NmzuHjWmXOc?si=sNxZEnYTJNyY3yYB"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8lygpt"
   },
   {
     "title": "The Dark Knight",
@@ -801,7 +801,7 @@ const array = [
     "imdbVotes": "2,404,199",
     "imdbID": "tt0468569",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/EXeTwQWrcwY?si=-f3tEGOjd6md5BfX"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8oju3i"
   },
   {
     "title": "Pulp Fiction",
@@ -817,7 +817,7 @@ const array = [
     "imdbVotes": "1,914,076",
     "imdbID": "tt0110912",
     "Type": "movie",
-    "VideoLink":"https://www.youtube.com/embed/s7EdQ4FqbhY?si=W4zX64dnWE905W5A"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8ptonv"
   },
   {
     "title": "The Office",
@@ -833,7 +833,7 @@ const array = [
     "imdbVotes": "451,189",
     "imdbID": "tt0386676",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/rdqZFIOhes8?si=vyngMXSH51NYB7ov"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8gpk80"
   },
   {
     "title": "Fight Club",
@@ -849,7 +849,7 @@ const array = [
     "imdbVotes": "2,009,021",
     "imdbID": "tt0137523",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/qtRKdVHc-cE?si=UilbbQatLlu8oJHh"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7mwtpv"
   },
   {
     "title": "The Mandalorian",
@@ -865,8 +865,7 @@ const array = [
     "imdbVotes": "338,154",
     "imdbID": "tt8111088",
     "Type": "series",
-     
-    "VideoLink":"https://www.youtube.com/embed/aOC8E8z_ifw?si=19UOj7kfl0fN9oUg"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hb7iq"
   },
   {
     "title": "Forrest Gump",
@@ -883,7 +882,7 @@ const array = [
     "imdbID": "tt0109830",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/XHhAG-YLdk8?si=J39qS7faQnxLxvZa"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x43a8nv"
   },
   {
     "title": "The Matrix",
@@ -899,7 +898,7 @@ const array = [
     "imdbVotes": "1,714,392",
     "imdbID": "tt0133093",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/vKQi3bBA1y8?si=jIpmUZIb5qkrDRul"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x842cfo"
   },
   {
     "title": "The Godfather",
@@ -915,7 +914,7 @@ const array = [
     "imdbVotes": "1,728,801",
     "imdbID": "tt0068646",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/UaVTIH8mujA?si=ntfbnz04Y-jnAeXH"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x6z5m1n"
   },
   {
     "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -932,7 +931,7 @@ const array = [
     "imdbID": "tt0120737",
     "Type": "movie",
      
-    "VideoLink":"https://www.youtube.com/embed/V75dMMIW2B4?si=PgeMJ68whj5fQKo3"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x16qy1o"
   },
   {
     "title": "The Witcher",
@@ -949,7 +948,7 @@ const array = [
     "imdbID": "tt5180504",
     "Type": "series",
      
-    "VideoLink":"https://www.youtube.com/embed/ndl1W4ltcmg?si=y91tKGGLAN3wH2q_"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8g2j5v"
   },
   {
     "title": "The Godfather: Part II",
@@ -965,7 +964,7 @@ const array = [
     "imdbVotes": "1,202,566",
     "imdbID": "tt0071562",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/9O1Iy9od7-A?si=NmnvAiHivaU88ai7"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x84lrl5"
   },
   {
     "title": "The Lord of the Rings: The Return of the King",
@@ -981,7 +980,7 @@ const array = [
     "imdbVotes": "1,632,424",
     "imdbID": "tt0167260",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/r5X-hFf6Bwo?si=AOBYWpzG5YKz-iBr"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7zdwz3"
   },
   {
     "title": "The Dark Knight Rises",
@@ -997,7 +996,7 @@ const array = [
     "imdbVotes": "1,537,161",
     "imdbID": "tt1345836",
     "Type": "movie", 
-    "VideoLink":"https://www.youtube.com/embed/GokKUqLcvD8?si=DJMSJ4PxFq-UUw6s"
+    "VideoLink":"https://www.dailymotion.com/embed/video/xjze0z"
   },
   {
     "title": "The Lord of the Rings: The Two Towers",
@@ -1013,7 +1012,7 @@ const array = [
     "imdbVotes": "1,480,538",
     "imdbID": "tt0167261",
     "Type": "movie",  
-    "VideoLink":"https://www.youtube.com/embed/LbfMDwc4azU?si=SNgTzGnFuaENxtl6"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x7zdwz4"
   },
   {
     "title": "Breaking Bad",
@@ -1029,7 +1028,7 @@ const array = [
     "imdbVotes": "1,527,456",
     "imdbID": "tt0903747",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/HhesaQXLuRY?si=0V_vsX_gGMvxcXj_"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x86esfl"
   },
   {
     "title": "Stranger Things",
@@ -1045,7 +1044,7 @@ const array = [
     "imdbVotes": "897,710",
     "imdbID": "tt4574334",
     "Type": "series",
-    "VideoLink":"https://www.youtube.com/embed/b9EkMc79ZSU?si=Oy5skt8ebaoiGdCG"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x5xgs2m"
   },
 
   {
@@ -1062,7 +1061,7 @@ const array = [
     "imdbVotes": "893,015",
     "imdbID": "tt0108778",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/IEEbUzffzrk?si=w6cbFNs_KVlfkDOj"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8hsoha"
   },
   {
     "title": "The Simpsons",
@@ -1078,7 +1077,7 @@ const array = [
     "imdbVotes": "375,443",
     "imdbID": "tt0096697",
     "Type": "series", 
-    "VideoLink":"https://www.youtube.com/embed/XPG0MqIcby8?si=iA1hcA0w5P6qbBEe"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x8a7ls2"
   },
 
   {
@@ -1095,7 +1094,7 @@ const array = [
     "imdbVotes": "372,088",
     "imdbID": "tt2707408",
     "Type": "series",  
-    "VideoLink":"https://www.youtube.com/embed/xl8zdCY-abw?si=BbAKxiNDitaQ4_4x"
+    "VideoLink":"https://www.dailymotion.com/embed/video/x3257kr"
   },
 ]
 

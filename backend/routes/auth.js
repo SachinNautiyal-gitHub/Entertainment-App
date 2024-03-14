@@ -17,7 +17,7 @@ router.post('/signup', [
 
     body('name', 'Enter a valid name , name length should be more than 6').isLength({min : 6}),
     body('email', 'Enter a valid email').isEmail(),
-    body('password' , "Enter a valid password ").isLength({min:8})
+    body('password' , "Enter a valid password ").isLength({min:6})
 ],
  async(req , res) =>{
    let success = false;

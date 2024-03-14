@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import styles from './Styles/home.module.css'
 import Search from '../components/Search'
 import HomeComponent from '../components/HomeComponent'
+import Trending from '../components/Trending'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       </div>
      <div className={styles.secondsection}>
       <Search/>
-      <HomeComponent/>
+      <Trending/>
+      {/* <HomeComponent/> */}
      </div>
     </div>
 

@@ -9,12 +9,14 @@ const fetchuser = require('../middleware/fetchUser')
 
 // Get all the movies form database
 
-router.get('/moviesdata', fetchuser,  async(req, res)=>{    
+router.get('/moviesdata', 
+// fetchuser, 
+ async(req, res)=>{    
     try {
         const movies = await Movies.find();
         res.json(movies);
     } catch (error) {
-        console.log(error.massage);
+        console.log(error.message);
         res.status(500).send("Internal server Error");
     }
 });

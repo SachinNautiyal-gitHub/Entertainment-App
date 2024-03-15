@@ -15,7 +15,7 @@ const Trending = () => {
         return <div className={styles.frameContainer} key={item._id}>
           
         
-        <iframe src='https://www.dailymotion.com/embed/video/x8hr0l0' frameborder="0" height='250px' width='500px' ></iframe>
+        <iframe src={`${item.VideoLink}`} frameborder="0" height='200px' width='400px' title={item.title} ></iframe>
 
 
         </div>

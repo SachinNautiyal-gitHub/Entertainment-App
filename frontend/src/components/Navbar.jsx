@@ -6,12 +6,20 @@ import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 
 const Navbar = () => {
 
+
+  const navigate = useNavigate()
+
   const handleOnclick = ()=>{
-    console.log("handle on clicked");
+   let windowConfirm =   window.confirm("Are you Sure you want to logout?");
+
+   if(windowConfirm){
+     localStorage.removeItem('token');
+     navigate('/login')
+   }   
   }
 
   return (

@@ -10,7 +10,7 @@ const fetchuser = require('../middleware/fetchUser')
 // Get all the movies form database
 
 router.get('/moviesdata', 
-// fetchuser, 
+fetchuser, 
  async(req, res)=>{    
     try {
         const movies = await Movies.find();

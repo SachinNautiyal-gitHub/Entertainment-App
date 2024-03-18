@@ -8,7 +8,7 @@ const NotFound = () => {
     <div className={styles.Notfound}>
        <SentimentVeryDissatisfiedIcon className={styles.icon}/>
        <h1>404 : Not Found</h1>
-       <p>Sorry, the page you are looking for does not exits, go to <Link to={'/'}>home</Link>.</p>
+       <p>Sorry, the page you are looking for does not exits, go to <Link className={styles.link} to={'/'}>home</Link>.</p>
     </div>
   )
 }

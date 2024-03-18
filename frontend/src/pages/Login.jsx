@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import styles from './Styles/login.module.css'
 import {Link , useNavigate} from 'react-router-dom'
+import { AppContext } from '../Context';
 
 const Login = () => {
 
   const [credential , setCredential ] = useState({ email :"" , password : ""});
   const navigate = useNavigate();
+
+  const {fetchData} = useContext(AppContext);
 
    const handleOnSubmit = async(e) =>{
        e.preventDefault();
@@ -24,6 +27,7 @@ const Login = () => {
        if(res.success){
          localStorage.setItem("token", res.authToken);
          alert("logged in Successfully");
+         fetchData();
          navigate('/');
        }
        else{

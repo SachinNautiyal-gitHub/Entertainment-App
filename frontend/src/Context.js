@@ -11,16 +11,15 @@ const AppProvider = ({ children }) => {
     
     const API = "http://localhost:5000/api"
 
-    const fetchData = async () => {
-        
-        const data = await fetch(`${API}/data/moviesdata`)
-        // ,{
-        //     method:"GET",
-        //     headers:{
-        //         "Content-Type" : "application-json",
-        //         "auth-token": localStorage.getItem('token')
-        //     }
-        // })
+    const fetchData = async () => {      
+        const data = await fetch(`${API}/data/moviesdata`
+        ,{
+            method:"GET",
+            headers:{
+                "Content-Type" : "application/json",
+                "auth-token": localStorage.getItem('token')
+            }
+        })
 
        const res = await data.json();
        console.log(res);
@@ -29,12 +28,28 @@ const AppProvider = ({ children }) => {
     };
 
 
+    const bookmarkData = async() =>{
+        const data = await fetch(`${API}/data/bookmark`,
+        {
+            method:"GET",
+            headers:{
+               "Content-Type":"application/json",
+               "auth-token": localStorage.getItem('token')
+
+            }
+        })
+
+        const res = await data.json();
+        setbookmarks(res);
+    }
+
+
 
     useEffect(() => {
         fetchData();
     }, []);
 
-    return <AppContext.Provider value={{array, setArray}}>
+    return <AppContext.Provider value={{array, setArray , fetchData}}>
         { children }
     </AppContext.Provider>
 }

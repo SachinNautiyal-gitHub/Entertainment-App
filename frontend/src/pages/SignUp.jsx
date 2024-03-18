@@ -5,7 +5,7 @@ import { useNavigate, Link } from 'react-router-dom';
 const SignUp = () => {
  
   const [credential , setCredential] = useState({name:"", email:"", password:""});
-  const navigte = useNavigate;
+  const navigate = useNavigate();
    
   const handleOnSubmit  = async(e)=>{
     e.preventDefault();
@@ -24,7 +24,7 @@ const SignUp = () => {
       if(res.success){
          localStorage.setItem('token', res.authToken);
          alert("signup Successfully");
-        //  navigte('/login');
+         navigate('/login');
       }
       else{
         alert("Invalid Credential");

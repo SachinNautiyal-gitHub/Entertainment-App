@@ -7,7 +7,7 @@ const AppContext = createContext([]);
 const AppProvider = ({ children }) => {
     
     const [array, setArray] = useState([]);
-    const [bookmarks, setbookmarks] = useState([]);
+    const [bookmark, setBookmark] = useState([]);
     
     const API = "http://localhost:5000/api"
 
@@ -40,16 +40,48 @@ const AppProvider = ({ children }) => {
         })
 
         const res = await data.json();
-        setbookmarks(res);
+        setBookmark(res);
+    }
+
+
+    const addBookMark = async (id)=>{
+        const data = await fetch(`${API}/data/add/${id}`,{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json",
+                "auth-token": localStorage.getItem('token')
+ 
+             }
+        });
+
+        const res = await data.json();
+        console.log(res);
+       
+
+    }
+
+    const removeBookMark = async(id)=>{
+         const data = await fetch(`${API}/data/remove/${id}`,{
+
+            method:"DELETE",
+            headers:{
+                "Content-Type":"application/json",
+                "auth-token": localStorage.getItem('token')
+ 
+             }
+         });
+         const res = await data.json();
+         console.log(res);         
     }
 
 
 
     useEffect(() => {
         fetchData();
+        bookmarkData();
     }, []);
 
-    return <AppContext.Provider value={{array, setArray , fetchData}}>
+    return <AppContext.Provider value={{array, setArray , fetchData, bookmark, bookmarkData, addBookMark , removeBookMark}}>
         { children }
     </AppContext.Provider>
 }

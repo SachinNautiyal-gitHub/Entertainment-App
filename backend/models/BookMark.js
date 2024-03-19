@@ -7,7 +7,7 @@ const userBookMarks = new mongoose.Schema({
          type : mongoose.Schema.Types.ObjectId,
           ref : "user"
     },
-    Title: String,
+    title: String,
     Year: Number,
     Genre: String,
     Actors: String,
@@ -25,4 +25,4 @@ const userBookMarks = new mongoose.Schema({
 })
 
 
-module.exports = mongoose.model('data' ,userBookMarks);
+module.exports = mongoose.model('bookmark' ,userBookMarks);

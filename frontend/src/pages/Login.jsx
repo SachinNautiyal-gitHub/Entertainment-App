@@ -8,7 +8,7 @@ const Login = () => {
   const [credential , setCredential ] = useState({ email :"" , password : ""});
   const navigate = useNavigate();
 
-  const {fetchData} = useContext(AppContext);
+  const {fetchData, bookmarkData} = useContext(AppContext);
 
    const handleOnSubmit = async(e) =>{
        e.preventDefault();
@@ -27,7 +27,7 @@ const Login = () => {
        if(res.success){
          localStorage.setItem("token", res.authToken);
          alert("logged in Successfully");
-         fetchData();
+         await fetchData();
          navigate('/');
        }
        else{

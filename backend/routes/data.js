@@ -42,19 +42,21 @@ router.get('/bookmark', fetchuser, async(req,res)=>{
 // Adding movie to Bookmark
 
 router.post('/add/:id', fetchuser, async(req, res)=>{
-    let bookMarkedMovie = await BookMark.findById(req.params.id);
+    let movieId = req.params.id;
+    let movie = await Movies.findById(movieId);
+
+    let bookMarkedMovie = await BookMark.findById(movie._id);
     if(bookMarkedMovie){
         return res.status(400).send("BookMark already exits");
     }  
-    try {
-        let movie = await Movies.findById(req.params.id);
-        const bookmark = new BookMark({ ...movie , user : req.user.id});
-
+    else try {
+        let bookmarkMovie = movie.toObject();
+        const bookmark = new BookMark({ ...bookmarkMovie , user : req.user.id});
         let bookmarked =  await bookmark.save();
-        res.json(bookmarked);
+        res.json({"Success":"bookmark added successfully"});
         
     } catch (error) {
-         console.log(error.massage);
+         console.log(error.message);
          res.status(500).send("Internal server Error")
     }   
 

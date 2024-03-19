@@ -8,7 +8,7 @@
 .container{
     display: flex;
     margin-top: 2rem;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
     justify-content: center;
     flex-grow: wrap;
@@ -18,7 +18,7 @@
 
 
 .itemcontainer{
-    /* border: 1px solid red; */
+    
     width: 300px;
     height: 220px;
     display: flex;
@@ -54,15 +54,30 @@
     font-size: 14px;
 }
 
-.bookMark{
-
-    /* position:absolute; */
-   
-
-}
 
 .title{
     font-size: 16px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width:700px){
+    .itemcontainer{
+    
+        width: 250px;
+        height: 180px;
+       
+    }
+
+
+    .itemcontainer img{
+        width: 250px;
+        height: 150px;
+        border-radius: 0.5rem;
+    }
+
+    
 }

@@ -10,10 +10,29 @@
    align-items: center;
    height: 100vh;
    justify-content: center;
-   /* border-right: 1px solid red; */
+   
 }
 
 .secondsection{
    width: 90%;
-   /* border-right: 1px solid red; */
+   
+}
+
+
+@media (max-width: 800px){
+     .home{
+      flex-direction: column;
+     }
+
+
+     .firstsection{
+      width: 95%;
+      height: 100px;
+      margin-left:1rem;
+      justify-content: space-between;
+     }
+
+     .secondsection{
+      width: 100%;
+     }
 }

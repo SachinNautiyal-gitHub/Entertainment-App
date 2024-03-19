@@ -15,7 +15,7 @@ const Trending = () => {
         return <div className={styles.frameContainer} key={item._id}>
           
         
-        <iframe src={`${item.VideoLink}`} frameBorder="0" height='200px' width='400px' title={item.title} ></iframe>
+        <iframe src={`${item.VideoLink}`}  title={item.title} ></iframe>
 
 
         </div>

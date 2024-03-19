@@ -8,6 +8,7 @@ const AppProvider = ({ children }) => {
     
     const [array, setArray] = useState([]);
     const [bookmark, setBookmark] = useState([]);
+    const [query, setQuery] = useState("");
     
     const API = "http://localhost:5000/api"
 
@@ -75,13 +76,18 @@ const AppProvider = ({ children }) => {
     }
 
 
+    const onchange = (e) =>{
+        setQuery(e.target.value);
+    }
+
+
 
     useEffect(() => {
         fetchData();
         bookmarkData();
-    }, []);
+    }, [bookmark]);
 
-    return <AppContext.Provider value={{array, setArray , fetchData, bookmark, bookmarkData, addBookMark , removeBookMark}}>
+    return <AppContext.Provider value={{array, setArray , fetchData, bookmark, bookmarkData, addBookMark ,query, removeBookMark, onchange}}>
         { children }
     </AppContext.Provider>
 }

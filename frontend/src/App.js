@@ -9,6 +9,7 @@ import TVShows from './components/TVShows';
 import HomeComponent from './components/HomeComponent';
 import BookMark from './components/BookMark'
 import NotFound from './pages/NotFound';
+import SearchResult from './components/SearchResult';
 
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
      <Routes>
 
       <Route  path='/' element={<Home/>}>
-        <Route path='' element={<HomeComponent/>}/>
-        <Route path='movies' element={<Movies/>}/>
-        <Route path='tvshows' element={<TVShows/>}/>
-        <Route path='bookmark' element={<BookMark/>}/>
+        <Route path='/' element={<HomeComponent/>}/>
+        <Route path='/movies' element={<Movies/>}/>
+        <Route path='/tvshows' element={<TVShows/>}/>
+        <Route path='/bookmark' element={<BookMark/>}/>
+        <Route path='/searchresult' element={<SearchResult/>} />
       </Route>
       <Route  path='/login' element={<Login/>}/>
       <Route  path='/signup' element={<SignUp/>}/>

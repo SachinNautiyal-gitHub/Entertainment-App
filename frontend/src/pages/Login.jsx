@@ -28,6 +28,7 @@ const Login = () => {
          localStorage.setItem("token", res.authToken);
          alert("logged in Successfully");
          await fetchData();
+         await bookmarkData();
          navigate('/');
        }
        else{

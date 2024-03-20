@@ -9,12 +9,11 @@ const Login = () => {
   const navigate = useNavigate();
 
   const {fetchData, bookmarkData} = useContext(AppContext);
-  const port = "https://entertainment-server-i9z7.onrender.com"
 
    const handleOnSubmit = async(e) =>{
        e.preventDefault();
        
-       const data = await fetch (`${port}/api/auth/login`,{
+       const data = await fetch (`https://entertainment-server-i9z7.onrender.com/api/auth/login`,{
         method:"POST",
         headers:{
          "Content-Type" : "application/json"

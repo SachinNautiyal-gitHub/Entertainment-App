@@ -13,7 +13,7 @@ const AppProvider = ({ children }) => {
     const port = "https://entertainment-server-i9z7.onrender.com"
 
     const fetchData = async () => {      
-        const data = await fetch(`${port}/data/moviesdata`
+        const data = await fetch(`${port}/api/data/moviesdata`
         ,{
             method:"GET",
             headers:{
@@ -30,7 +30,7 @@ const AppProvider = ({ children }) => {
 
 
     const bookmarkData = async() =>{
-        const data = await fetch(`${port}/data/bookmark`,
+        const data = await fetch(`${port}/api/data/bookmark`,
         {
             method:"GET",
             headers:{
@@ -46,7 +46,7 @@ const AppProvider = ({ children }) => {
 
 
     const addBookMark = async (id)=>{
-        const data = await fetch(`${port}/data/add/${id}`,{
+        const data = await fetch(`${port}/api/data/add/${id}`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
@@ -62,7 +62,7 @@ const AppProvider = ({ children }) => {
     }
 
     const removeBookMark = async(id)=>{
-         const data = await fetch(`${port}/data/remove/${id}`,{
+         const data = await fetch(`${port}/api/data/remove/${id}`,{
 
             method:"DELETE",
             headers:{

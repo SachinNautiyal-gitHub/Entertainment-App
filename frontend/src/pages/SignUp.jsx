@@ -6,11 +6,13 @@ const SignUp = () => {
  
   const [credential , setCredential] = useState({name:"", email:"", password:""});
   const navigate = useNavigate();
+
+  const port = "https://entertainment-server-i9z7.onrender.com";
    
   const handleOnSubmit  = async(e)=>{
     e.preventDefault();
 
-      const data = await fetch('http://localhost:5000/api/auth/signup',{
+      const data = await fetch(`${port}/api/auth/signup`,{
         method:"POST",
         headers:{
           "Content-Type": "application/json"

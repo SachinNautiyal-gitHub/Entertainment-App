@@ -6,13 +6,14 @@ const AppContext = createContext([]);
 
 const AppProvider = ({ children }) => {
     
-    const [array, setArray] = useState([]);
+    //creating required state for the app  here
+    const [array, setArray] = useState([]); 
     const [bookmark, setBookmark] = useState([]);
     const [query, setQuery] = useState("");
     
-    const port = "https://entertainment-server-i9z7.onrender.com"
+    const port = "https://entertainment-server-i9z7.onrender.com" //server url
 
-    const fetchData = async () => {      
+    const fetchData = async () => {       // this function will get all the data from database.
         const data = await fetch(`${port}/api/data/moviesdata`
         ,{
             method:"GET",
@@ -29,7 +30,7 @@ const AppProvider = ({ children }) => {
     };
 
 
-    const bookmarkData = async() =>{
+    const bookmarkData = async() =>{  // this function will get all the bookmark data of specific user from the server.
         const data = await fetch(`${port}/api/data/bookmark`,
         {
             method:"GET",
@@ -45,7 +46,7 @@ const AppProvider = ({ children }) => {
     }
 
 
-    const addBookMark = async (id)=>{
+    const addBookMark = async (id)=>{ // addbookmark function to add a bookmark
         const data = await fetch(`${port}/api/data/add/${id}`,{
             method:"POST",
             headers:{
@@ -61,7 +62,7 @@ const AppProvider = ({ children }) => {
 
     }
 
-    const removeBookMark = async(id)=>{
+    const removeBookMark = async(id)=>{  // logic for removing the bookmark
          const data = await fetch(`${port}/api/data/remove/${id}`,{
 
             method:"DELETE",
@@ -76,13 +77,13 @@ const AppProvider = ({ children }) => {
     }
 
 
-    const onchange = (e) =>{
+    const onchange = (e) =>{  
         setQuery(e.target.value);
     }
 
 
 
-    useEffect(() => {
+    useEffect(() => {  
         fetchData();
         bookmarkData();
     }, [bookmark]);

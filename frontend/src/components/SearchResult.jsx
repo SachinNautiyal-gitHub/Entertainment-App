@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const SearchResult = () => {
   
     const navigate = useNavigate();
-    const {array, query} = useContext(AppContext);
+    const {array, query, setCurrentWatching} = useContext(AppContext);
     const searchinfo = array.filter(item => item.title.toLowerCase().includes(query.toLowerCase()));
 
     const handleMovieclick = ()=>{
@@ -18,6 +18,12 @@ const SearchResult = () => {
     const handleTvclick = () =>{
         navigate('/tvshows');
     }
+
+    const navigateToWatching = async(id) => {
+        const movie = await array.find(item => item._id ===id);
+        setCurrentWatching(movie);
+        navigate('/watch')
+      }
 
 
  
@@ -54,7 +60,7 @@ else {
                     return (
                         <div className={styles.itemcontainer} key={item._id}>
 
-                            <img src={item.Poster} alt="" />
+                            <img src={item.Poster} alt="" onClick={()=>navigateToWatching(item._id)} />
                             <p className={styles.details}>{item.Year} {item.Type === "movie" ? <LocalMoviesIcon className={styles.icon} /> : <LiveTvIcon className={styles.icon} />} {item.Type}</p>
                             <p className={styles.title}>{item.title} 
                                 </p>

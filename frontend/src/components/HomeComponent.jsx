@@ -5,13 +5,12 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 import styles from './Styles/homecompo.module.css'
 import Trending from './Trending';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
+import { useNavigate } from 'react-router-dom';
 
 const HomeComponent = () => {
 
-    const { array, bookmark, bookmarkData, addBookMark, removeBookMark } = useContext(AppContext);
-    console.log(array);
-
-    console.log(bookmark);
+    const { array, bookmark, bookmarkData, addBookMark, removeBookMark, setCurrentWatching } = useContext(AppContext);
+    const navigate = useNavigate();
 
     const handleOnclick = async (movieId) => {
         if (bookmark.find(movie => movie._id === movieId)) {
@@ -21,6 +20,13 @@ const HomeComponent = () => {
             await addBookMark(movieId);
         }
         bookmarkData();
+    }
+
+
+    const navigateToWatching = async(id) => {
+         const movie = await array.find(item => item._id ===id);
+         setCurrentWatching(movie);
+         navigate('/watch')
     }
 
 
@@ -37,7 +43,7 @@ const HomeComponent = () => {
                     return (
                         <div className={styles.itemcontainer} key={item._id}>
 
-                            <img src={item.Poster} alt="" />
+                            <img src={item.Poster} alt="" onClick={()=>navigateToWatching(item._id)} />
                             <p className={styles.details}>{item.Year} {item.Type === "movie" ? <LocalMoviesIcon className={styles.icon} /> : <LiveTvIcon className={styles.icon} />} {item.Type}</p>
                             <p className={styles.title}>{item.title} 
                             <BookmarkIcon style={{ color: bookmark.find(movie => movie._id === item._id) ? '#FC4747' : '#5A698F' }}

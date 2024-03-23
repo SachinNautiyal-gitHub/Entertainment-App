@@ -10,6 +10,7 @@ const AppProvider = ({ children }) => {
     const [array, setArray] = useState([]); 
     const [bookmark, setBookmark] = useState([]);
     const [query, setQuery] = useState("");
+    const [currentWatching, setCurrentWatching] = useState("")
     
     const port = "https://entertainment-server-i9z7.onrender.com" //server url
 
@@ -88,7 +89,7 @@ const AppProvider = ({ children }) => {
         bookmarkData();
     }, [bookmark]);
 
-    return <AppContext.Provider value={{array, setArray , fetchData, bookmark, bookmarkData, addBookMark ,query, removeBookMark, onchange}}>
+    return <AppContext.Provider value={{array, setArray , fetchData, bookmark, bookmarkData, addBookMark ,query, removeBookMark, onchange, currentWatching, setCurrentWatching}}>
         { children }
     </AppContext.Provider>
 }

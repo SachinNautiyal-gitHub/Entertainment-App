@@ -10,6 +10,7 @@ import HomeComponent from './components/HomeComponent';
 import BookMark from './components/BookMark'
 import NotFound from './pages/NotFound';
 import SearchResult from './components/SearchResult';
+import Watch from './pages/Watch';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route path='/bookmark' element={<BookMark/>}/>
         <Route path='/searchresult' element={<SearchResult/>} />
       </Route>
+
+      <Route  path='/watch' element={<Watch/>}/>
       <Route  path='/login' element={<Login/>}/>
       <Route  path='/signup' element={<SignUp/>}/>
       <Route  path='*' element={<NotFound/>} />{/* 404 page */}
